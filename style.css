@@ -151,7 +151,7 @@ header.p-section {
 
 #meet-antoine-video .video-wrapper {
   position: relative;
-  width: 90%; /* Slightly less wide than full width */
+  width: 95%; /* Slightly less wide than full width */
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   max-width: 1000px; /* Maximum width for larger screens */
   margin: auto; /* Centers the video */

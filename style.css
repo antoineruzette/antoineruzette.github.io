@@ -90,7 +90,7 @@ header.p-section {
   padding: 160px 0px;
 }
 
-.container-lg {
+.text-light {
   max-width: 900px;
 }
 
@@ -163,4 +163,8 @@ header.p-section {
   left: 0;
   width: 100%; /* Fully fills the wrapper */
   height: 100%; /* Maintains aspect ratio within the wrapper */
+}
+
+.list-inline-item a i {
+  color: black !important;
 }

@@ -94,6 +94,10 @@ header.p-section {
   max-width: 900px;
 }
 
+.text-dark {
+  max-width: 900px;
+}
+
 .w-md {
   max-width: 600px;
 }

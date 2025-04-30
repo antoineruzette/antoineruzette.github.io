@@ -79,7 +79,7 @@ sup, .sup {
 }
 
 header.p-section {
-  padding: 160px 0px 5px;
+  padding: 200px 0px 200px;
 }
 
 .p-section {
@@ -173,3 +173,68 @@ header.p-section {
 .list-inline-item a i {
   color: black !important;
 } */
+
+.publication-card {
+  max-height: 500px;
+}
+
+.publication-card .publication-image {
+  height: 180px;
+  overflow: hidden;
+}
+
+.publication-card .card-body {
+  padding: 1rem;
+}
+
+.publication-card .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.publication-card .card-text {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.publication-card .card-footer {
+  padding: 0.5rem 1rem;
+}
+
+/* Video Background Styles */
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.45;
+  object-fit: cover;
+}
+
+header {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+header .container-fluid {
+  z-index: 1;
+}
+
+#company.p-section {
+  padding-top: 40px;
+}

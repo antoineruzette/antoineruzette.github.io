@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="js/publications.js"></script>
 
 </head>
 <body>
@@ -29,21 +30,26 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#publications">Publications</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class='text-center p-section'>
-    <div class='container-fluid'>
+  <header class='text-center p-section position-relative'>
+    <div class='video-background'>
+      <video autoplay muted loop playsinline class='background-video'>
+        <source src="img/movie_random_cell_mixing.mp4.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class='container-fluid position-relative'>
       <div class='row'>
         <div class='col-md-6 offset-md-3'>
           <sup>Meet Antoine</sup>
           <!-- <h1>Drawing inspiration from <span class='marker-highlight'>computer</span> <span class='marker-highlight'>science</span> to decode multicellular complexity</h1> -->
           <!-- <h1> Machine learning to accelerate biomedical decision making </h1> -->
-          <p class='lead'>I am an experienced computational researcher specialized in machine learning and software automation to accelerate decision-making in biomedical research.</p>
+          <p class='lead'>I am an applied AI/ML researcher specialized in machine learning and software automation to accelerate decision-making in biomedical research.</p>
         </div>
       </div>
     </div>
@@ -105,14 +111,15 @@
             </div>
             <div class='card-body'>
 
-              <h3>Simulating the emergence of multicellular organization</h3>
+              <h3>The emergence of multicellular organization</h3>
               <p class='mb-3'>I am the principal developer of Goo, a one-stop software to simulate cell mechanics, molecular communication and gene regulatory networks in 3D inside Blender.</p>
               
             </div>
             <div class='card-footer'>
-              <a href='https://github.com/smegason/Goo' class='btn btn-sm btn-light'><i class="bi-github"></i> Code</a>
-              <a href='https://smegason.github.io/Goo/' class='btn btn-sm btn-light'><i class="bi-book"></i> Docs</a>
-              <a href='https://www.youtube.com/watch?v=FoMv7MnLFPc' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a>
+              <!-- <a href='' class='btn btn-sm btn-light'> Learn more</a> -->
+              <!-- <a href='https://github.com/smegason/Goo' class='btn btn-sm btn-light'><i class="bi-github"></i> Code</a> -->
+              <!-- <a href='https://smegason.github.io/Goo/' class='btn btn-sm btn-light'><i class="bi-book"></i> Docs</a> -->
+              <!-- <a href='https://www.youtube.com/watch?v=FoMv7MnLFPc' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a> -->
             </div>
           </div>
         </div>
@@ -125,13 +132,14 @@
           <div class='card-body'>
 
             <h3>Computer vision for microscopy image analysis</h3>
-            <p class='mb-3'>I research on computational methods to make sense of high-dimensional datasets of microscopy images.</p>
+            <p class='mb-3'>I research on image analysis and computer vision models to make sense of high-dimensional datasets of microscopy images.</p>
 
           </div>
           <div class='card-footer'>
+            <!-- <a href='' class='btn btn-sm btn-light'> Learn more</a> -->
             <!-- <a href='#' class='btn btn-sm btn-light'><i class="bi-github"></i> Code</a> -->
             <!-- <a href='#' class='btn btn-sm btn-light'><i class="bi-power"></i> Paper</a> -->
-            <a href='https://www.biorxiv.org/content/10.1101/2025.01.22.634323v1.abstract' class='btn btn-sm btn-light'><i class="bi-journal-text"></i> Paper</a>
+            <!-- <a href='https://www.biorxiv.org/content/10.1101/2025.01.22.634323v1.abstract' class='btn btn-sm btn-light'><i class="bi-journal-text"></i> Paper</a> -->
           </div>
         </div>
       </div>
@@ -148,14 +156,15 @@
 
           </div>
           <div class='card-footer'>
-            <a href='https://iac.hms.harvard.edu/support/teaching.html' class='btn btn-sm btn-light'><i class="bi-info-circle"></i> All courses</a>
-            <a href='https://hms-iac.github.io/qupath-workshop/' class='btn btn-sm btn-light'><i class="bi-book"></i> QuPath course</a>
+            <!-- <a href='' class='btn btn-sm btn-light'> Learn more</a> -->
+            <!-- <a href='https://iac.hms.harvard.edu/support/teaching.html' class='btn btn-sm btn-light'><i class="bi-info-circle"></i> All courses</a> -->
+            <!-- <a href='https://hms-iac.github.io/qupath-workshop/' class='btn btn-sm btn-light'><i class="bi-book"></i> QuPath course</a> -->
           </div>
         </div>
       </div>
     </div>
 
-    <h3 class='pt-3'>Other Projects</h3>
+    <!-- <h3 class='pt-3'>Other Projects</h3>
       <div class='row'>
         <div class='col-sm-5'>
           <p class='pb-3 lead'>These items are a collection of companies and student associations I have worked for, projects I've undertaken, and code I've written. They include things like:</p>
@@ -206,7 +215,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <section id='about' class='p-section'>
@@ -358,6 +367,22 @@
         </div>
       </div>
 
+    </div>
+  </section>
+
+  <section id='publications' class='p-section bg-light'>
+    <div class='container'>
+      <sup>Publications</sup>
+      <h2 class='mb-5 underline'>Research Papers</h2>
+
+      <div class='row' id='publications-container'>
+        <!-- Publications will be loaded here dynamically -->
+        <div class='text-center'>
+          <div class='spinner-border text-primary' role='status'>
+            <span class='visually-hidden'>Loading...</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 

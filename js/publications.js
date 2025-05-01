@@ -6,7 +6,7 @@ function displayPublications() {
       year: 2025,
       title: "An image analysis pipeline to quantify the spatial distribution of cell markers in stroma-rich tumors",
       journal: "bioRxiv",
-      url: "https://www.biorxiv.org/content/10.1101/2025.01.22.634323v1",
+      url: "https://www.biorxiv.org/content/10.1101/2025.04.28.650414v1",
       image: "img/ruzette2025.png"
     },
     {
